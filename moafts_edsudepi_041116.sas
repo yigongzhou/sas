@@ -1,22 +1,3 @@
-******************************************************************;
-**Master MOAFTS File (modified from Alexis's file: 'master.sas')**;
-******************************************************************;
-
-options ls=100 ps=1000;
-
-libname parent    '/home2/andrew/adolescent/parent/sasdata';      *PARENT DATA*;
-libname baseline  '/home2/andrew/adolescent/twin/sasdata';        *WAVE 1 DATA*;
-libname wave2     '/home2/andrew/adolescent/followup/sasdata';    *WAVE 2 AND WAVE 3 DATA*;
-libname zyg v6    '/home2/andrew/adolescent/zygosity/sasdata8';   *ZYGOSITY AND RACE DATA*;
-libname wave5     '/home2/andrew/adolescent/twin/phase5/sasdata'; *WAVE 5 DATA*;
-libname andrew '/home2/andrew/adolescent/twin/phase4/sasdata'; *not used in this script as of 06.15.12*;
-libname here8 v8  '/home2/andrew/adolescent/twin/phase4/sasdata';
-
-
-
-*------------------------------------------------*;
-****PARENT DATA- ASKED AT WAVE 1 (From Alexis)****;
-*------------------------------------------------*;
 
 
 DATA other_a;
